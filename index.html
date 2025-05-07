@@ -3,75 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EvaluationSCM Demo - Combined Version</title>
+    <title>EvaluationSCM - Merged Demo</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
-        body {
-            font-family: 'Trebuchet MS', sans-serif;
-            background-color: #f0f8ff; /* Light blue background from B1 */
-            margin: 25px;
-            color: #333;
-        }
-        h1 {
-            color: #0066cc; /* Blue from B1 */
-            text-align: center;
-            border-bottom: 2px solid #0066cc;
-            padding-bottom: 10px;
-        }
-        .feature-section {
-            background-color: #fff;
-            padding: 15px;
-            border-radius: 8px;
-            margin-top: 20px;
-        }
+        /* Maintaining some custom styles for B1 and B2 sections */
         .b1-section {
             border-left: 4px solid #0066cc; /* B1 color */
+            background-color: rgba(240, 248, 255, 0.1); /* Light blue with transparency */
         }
         .b2-section {
             border-left: 4px solid #006400; /* B2 color */
+            background-color: rgba(245, 245, 220, 0.1); /* Beige with transparency */
+        }
+        .b3-section {
+            border-left: 4px solid #ff6600; /* B3 color */
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to EvaluationSCM - Combined Version</h1>
-    
-    <div class="feature-section">
-        <h2>About This Project</h2>
-        <p>This page combines features from multiple branches to demonstrate Git branch merging.</p>
-    </div>
-    
-    <div class="feature-section b1-section">
-        <h2>Branch B1 Features</h2>
-        <p>This section includes content from Branch B1.</p>
-        <ul>
-            <li>Git branching demonstration</li>
-            <li>Basic HTML structure</li>
-            <li>Version control practice</li>
-            <li>Branch B1 feature: Added styling</li>
-        </ul>
-        <div>
-            <h3>Branch B1 Specific Content</h3>
+    <div class="container">
+        <header>
+            <h1>EvaluationSCM Project</h1>
+            <div class="branch-label">Merged Version</div>
+        </header>
+        
+        <div class="content-section">
+            <h2>About This Implementation</h2>
+            <p>This page combines features from all three branches (B1, B2, and B3) to demonstrate Git branch merging.</p>
+            <p>Each section below highlights the unique contributions from each branch.</p>
+        </div>
+        
+        <div class="content-section b1-section">
+            <h2>Branch B1 Features</h2>
+            <p>This section includes content from Branch B1.</p>
+            <ul class="features-list">
+                <li>Git branching demonstration</li>
+                <li>Basic HTML structure</li>
+                <li>Version control practice</li>
+                <li>Branch B1 feature: Light blue styling</li>
+            </ul>
             <p>This section demonstrates content added specifically in branch B1.</p>
         </div>
-    </div>
-    
-    <div class="feature-section b2-section">
-        <h2>Branch B2 Features</h2>
-        <p>This section includes content from Branch B2.</p>
-        <h3>Project Features:</h3>
-        <ul>
-            <li>Git branching demonstration</li>
-            <li>Basic HTML structure</li>
-            <li>Version control practice</li>
-            <li>Branch B2 feature: Enhanced layout and design</li>
-        </ul>
         
-        <h3>B2 Branch Exclusive Content</h3>
-        <p>This section showcases the changes made specifically in the B2 branch:</p>
-        <ol>
-            <li>Improved page structure</li>
-            <li>Different color scheme</li>
-            <li>Additional content sections</li>
-        </ol>
+        <div class="content-section b2-section">
+            <h2>Branch B2 Features</h2>
+            <p>This section includes content from Branch B2.</p>
+            <h3>Project Features:</h3>
+            <ul class="features-list">
+                <li>Enhanced layout and design</li>
+                <li>Feature sections with rounded corners</li>
+                <li>Organized content blocks</li>
+            </ul>
+            
+            <p>Branch B2 introduced these specific features:</p>
+            <ol>
+                <li>Improved page structure</li>
+                <li>Green and beige color scheme</li>
+                <li>Additional content sections</li>
+            </ol>
+        </div>
+        
+        <div class="content-section b3-section">
+            <h2>Branch B3 Features</h2>
+            <p>This section showcases Branch B3's contributions:</p>
+            <ul class="features-list">
+                <li>External CSS implementation</li>
+                <li>Dark theme with orange accents</li>
+                <li>Responsive container layout</li>
+                <li>Semantic HTML structure</li>
+            </ul>
+        </div>
+        
+        <footer>
+            <p>EvaluationSCM - Fully Merged Demo &copy; 2023</p>
+        </footer>
     </div>
 </body>
 </html> 
